@@ -3,7 +3,7 @@
 <div class="row">
     <div  id="col1" class="col-md-6 col-sm-12">
         <div class="card mt-3" *ngFor='let quote of quotes;let i = index'>
-            <div class="card-header text-center bg-primary text-white">Posted by: {{quote.author}}</div>
+            <div class="card-header text-center bg-success text-white">Posted by: {{quote.author}}</div>
             <div appHighestvote *ngIf="mostLiked()===quote.upvote && quote.upvote > 0" class="card-body">
                 {{quote.quote}}
             </div>
