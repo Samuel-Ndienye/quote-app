@@ -10,7 +10,6 @@ export class QuoteComponent implements OnInit {
 
   quotes:Quotes[] = [
     new Quotes ('Annett Mwangi','Jackson Smith', 'Give me coffee to change the things I can and wine to accept those that I cannot.', 0,0,new Date(2020,3,8)),
- 
     new Quotes ('Lucy Wigwa','Biron Johnson' ,'They think they know the rules so that they can break it forgetting that we are the one who wrote it.', 0,0, new Date(2020,2,28)),
     new Quotes('Lilly Baraka','Rawlence Washington', 'Dont dress up so that they can see you,you might endup walking naked just to get their attention.', 0,0, new Date(2020,8,3)),
     
