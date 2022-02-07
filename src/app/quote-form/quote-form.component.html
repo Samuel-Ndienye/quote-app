@@ -26,5 +26,5 @@
         <input type="date" id="date" class="form-control" [(ngModel)]=newQuote.elapse name="elapse" #elapse='ngModel' required>
         <p [hidden]='elapse.valid||elapse.pristine' class="alert alert-danger">Required*</p>
     </div>
-    <button type="submit" class="btn btn-primary">Create</button>   
+    <button type="submit" class="btn btn-warning">Create</button>   
 </form>
