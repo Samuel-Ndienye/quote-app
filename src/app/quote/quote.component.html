@@ -11,7 +11,7 @@
                     {{quote.quote}}
             </div>
             <div class="card-footer">
-                <button class="btn btn-sm btn-outline-primary mr-4" (click)='seeDetails(i)'>more</button>
+                <button class="btn btn-sm btn-outline-success mr-4" (click)='seeDetails(i)'>more</button>
                 <app-quote-detail *ngIf='quote.viewDetails' [quote]='quote' (isComplete)='purgeQuotes($event,i)' (voteIncrease)='addVote($event,i)' (voteDecrease)='lessVote($event,i)'>
                 </app-quote-detail>
             </div>
